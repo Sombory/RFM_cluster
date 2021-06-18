@@ -21,7 +21,7 @@ import pandas as pd
 # In[2]:
 
 
-con = teradatasql.connect(host='192.168.51.72', user='P_AP_R', password='P_AP_R')
+con = teradatasql.connect(host='XX', user='XX', password='XX')
 cur = con.cursor()
 #cur.execute('CALL P_Cientificos_Datos.SP_RFM_TP (ADD_MONTHS(DATE,-1) - EXTRACT(DAY FROM DATE-1),DATE - EXTRACT (DAY FROM DATE))')
 consulta = cur.execute("""
